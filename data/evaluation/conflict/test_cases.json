@@ -1,0 +1,9 @@
+[
+  {
+    "test_id": "CONF_001",
+    "category": "conflicting",
+    "query": "Is RTI fee mandatory for BPL applicants under amended rules?",
+    "expected_entities": ["RTI Act", "BPL"],
+    "expected_fail_safe_state": "PARTIALLY_VERIFIED"
+  }
+]

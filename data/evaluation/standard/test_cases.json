@@ -1,0 +1,34 @@
+[
+  {
+    "test_id": "STD_001",
+    "category": "standard",
+    "query": "What is the procedure and timeline to dispose of an RTI request under Section 7?",
+    "expected_entities": ["Section 7", "RTI Act"],
+    "expected_section_numbers": ["7"],
+    "expected_fail_safe_state": "VERIFIED"
+  },
+  {
+    "test_id": "STD_002",
+    "category": "standard",
+    "query": "Where does an appeal lie under Section 19 of the Right to Information Act?",
+    "expected_entities": ["Section 19", "First Appellate Authority", "Central Information Commission"],
+    "expected_section_numbers": ["19"],
+    "expected_fail_safe_state": "VERIFIED"
+  },
+  {
+    "test_id": "STD_003",
+    "category": "standard",
+    "query": "What is the role of Data Protection Board of India under DPDP Act Section 19?",
+    "expected_entities": ["Data Protection Board of India", "Section 19"],
+    "expected_section_numbers": ["19"],
+    "expected_fail_safe_state": "VERIFIED"
+  },
+  {
+    "test_id": "STD_004",
+    "category": "standard",
+    "query": "What is the pecuniary jurisdiction of District Consumer Commission under Section 34?",
+    "expected_entities": ["District Commission", "Section 34"],
+    "expected_section_numbers": ["34"],
+    "expected_fail_safe_state": "VERIFIED"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "test_id": "HELD_001",
+    "category": "held_out",
+    "query": "How many days are allowed to file a first appeal under Section 19(1)?",
+    "expected_section_numbers": ["19"],
+    "expected_fail_safe_state": "VERIFIED"
+  },
+  {
+    "test_id": "HELD_002",
+    "category": "held_out",
+    "query": "What happens if RTI request concerns life or liberty of a person under Section 7?",
+    "expected_section_numbers": ["7"],
+    "expected_fail_safe_state": "VERIFIED"
+  },
+  {
+    "test_id": "HELD_003",
+    "category": "held_out",
+    "query": "What are the requirements for valid consent by Data Principal under Section 6 of DPDP Act?",
+    "expected_section_numbers": ["6"],
+    "expected_fail_safe_state": "VERIFIED"
+  }
+]
